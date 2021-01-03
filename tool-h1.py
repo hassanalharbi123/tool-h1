@@ -7,6 +7,7 @@ pip install subprocess
 pip install stegano
 pip install pypng
 pip install pyautogui
+pip install pytube
 '''
 import pyfiglet
 from termcolor import colored
@@ -256,3 +257,9 @@ if(tool=="5"):
        return password
    data='12345678910qwertyuiopasdfghjklzxcvbnm!@#$%^&*()QWERTYUIOPASDFGHJKLZXCVBNM'
    print(GetPassword(data))
+if(tool=="6"):
+  import pytube
+  url=input("enter the link ====> ")
+  youtube=pytube.YouTube(url)
+  video=youtube.streams.first()
+  video.download()
