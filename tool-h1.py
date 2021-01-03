@@ -21,6 +21,7 @@ print(colored('cyberscurity [ 2 ]','blue'))
 print(colored('spam MSG [ 3 ] ','green'))
 print(colored('QR code [ 4 ]','red'))
 print(colored('creat password [ 5 ]','blue'))
+print(colored('download video from youtube [ 6 ] ','green'))
 tool=input("enter the number: ")
 """___________________________________________________________________________"""
 if (tool=="1"):
