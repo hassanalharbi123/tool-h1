@@ -1,3 +1,13 @@
+'''
+pip install pyfiglet
+pip install termcolor
+pip install pyqrcode
+pip install socket
+pip install subprocess
+pip install stegano
+pip install pypng
+pip install pyautogui
+'''
 import pyfiglet
 from termcolor import colored
 ascii_banner = pyfiglet.figlet_format("Tool-h")
