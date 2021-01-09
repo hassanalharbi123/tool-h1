@@ -10,7 +10,9 @@ pip install pyautogui
 pip install pytube
 '''
 import pyfiglet
+import os
 from termcolor import colored
+os.system("cls")
 ascii_banner = pyfiglet.figlet_format("Tool-h")
 print(ascii_banner)
 print(colored("---------created by alhassan alharbi----------",'yellow'))
@@ -27,25 +29,9 @@ tool=input("enter the number: ")
 if (tool=="1"):
   from webbrowser import open
   from termcolor import colored
+  
 #__________
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
-  print("")
+  os.system("cls")
   #______
   print("       /\    |         |       |")
   print("      /  \   |         |       |")
@@ -79,6 +65,7 @@ if (tool=="1"):
 '''_________________________________________________________________________'''
 
 if (tool=="2"):
+  os.system("cls")
   print(colored(" DNS website (1)",'green'))
   print(colored(" ip ping (2)",'yellow'))
   print(colored(" hash (3)",'green'))
@@ -224,6 +211,7 @@ if (tool=="2"):
 if (tool=="3"):
    import pyautogui
    from time import sleep
+   os.system("cls")
 
 
    print("حمل مكتبة pyautogui")
@@ -240,6 +228,7 @@ if (tool=="3"):
        sleep(time_msg)
 if(tool=='4'):
    import pyqrcode as qqrr
+   os.system("cls")
    print("")
    text = input("Please Enter your Massage OR Link : ")
    FileName = input("Please Enter File Name : ")
@@ -248,6 +237,7 @@ if(tool=='4'):
 
    g.png(FileName + ".png",scale=10)
 if(tool=="5"):
+   os.system("cls")
    import random
    def GetPassword(data):
        Max=int(input('enter number ==> '))
@@ -260,6 +250,7 @@ if(tool=="5"):
    print(GetPassword(data))
 if(tool=="6"):
   import pytube
+  os.system("cls")
   url=input("enter the link ====> ")
   youtube=pytube.YouTube(url)
   video=youtube.streams.first()
