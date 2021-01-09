@@ -11,5 +11,7 @@ git clone https://github.com/hassanalharbi123/tool-h1
 cd tool-h1
 
 python3 tool-h1.py
+
 or:
+
 python3 tool-h1
